@@ -1,3 +1,102 @@
-body {
-  background: yellow;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-variant: normal;
+  background-color: lightgray;
+  scroll-behavior: smooth;
+}
+
+#topnav {
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.nav-icon {
+  width: 30%;
+}
+
+.favicon {
+  width: 60px;
+  padding-top: 15px;
+  padding-left: 45px;
+}
+
+#nav-links {
+  display: block;
+  float: right;
+  margin-top: -66px;
+  margin-right: 60px;
+}
+
+#topnav a {
+  margin-top: 14px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 2px;
+  display: block;
+  float: left;
+}
+
+a hr {
+  width: 100%;
+  border: none;
+  height: 2px;
+  background-color: #fff;
+  display: none;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+a:hover hr,
+a.active hr {
+  display: block;
+}
+
+#topnav a.icon {
+  display: none;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  display: inline-flex;
+}
+
+.caption span.border-2 {
+  background-color: transparent;
+  color: #f7f7f7;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+img#personal-pic {
+  border-radius: 50%;
+  max-width: 750px;
+  max-height: 750px;
+  height: 30%;
+  width: 30%;
+  margin-left: 3%;
+  align-self: flex-start;
 }
