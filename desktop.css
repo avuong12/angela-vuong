@@ -14,6 +14,7 @@ html {
   position: fixed;
   overflow: hidden;
   z-index: 10;
+  background: lightgray;
 }
 
 .nav-icon {
@@ -38,10 +39,11 @@ html {
   margin-left: 20px;
   margin-right: 20px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 22px;
   letter-spacing: 2px;
   display: block;
   float: left;
+  font-variant: small-caps;
 }
 
 a hr {
@@ -69,16 +71,13 @@ a.active hr {
 .title {
   position: relative;
   height: 100%;
-  display: block;
+  display: grid;
   align-items: center;
   width: 50%;
   margin: auto;
 }
 
 .name {
-  position: absolute;
-  left: 0;
-  top: 50%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -87,9 +86,11 @@ a.active hr {
 .name span.border {
   color: black;
   padding: 18px;
-  font-size: 25px;
+  font-size: 64px;
   letter-spacing: 10px;
   display: inline-flex;
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 .caption span.border-2 {
@@ -104,6 +105,14 @@ a.active hr {
   display: block;
   width: 50%;
   margin: auto;
+  margin-bottom: 5%;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
 }
 
 img#personal-pic {
@@ -112,10 +121,11 @@ img#personal-pic {
   max-height: 750px;
   height: 30%;
   width: 30%;
-  margin-left: 3%;
-  align-self: flex-start;
+  display: block;
+  margin: auto;
 }
 
 #about {
   display: inline;
+  text-align: justify;
 }
