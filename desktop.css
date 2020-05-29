@@ -106,6 +106,7 @@ a.active hr {
   width: 50%;
   margin: auto;
   margin-bottom: 5%;
+  padding: 80px;
 }
 
 h3 {
@@ -113,6 +114,20 @@ h3 {
   font-weight: bold;
   font-variant: small-caps;
   text-align: center;
+}
+
+h4 {
+  font-size: 28px;
+  font-variant: small-caps;
+  font-weight: bold;
+  display: contents;
+}
+
+h5 {
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+  display: contents;
 }
 
 img#personal-pic {
@@ -128,4 +143,57 @@ img#personal-pic {
 #about {
   display: inline;
   text-align: justify;
+}
+
+div.outer {
+  padding: 50px;
+}
+
+#section-projects div.inner {
+  color: #fff;
+  background-color: #8d9aa5;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 25px 80px;
+  margin-bottom: 5%;
+}
+
+.single-project {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  padding-bottom: 25px;
+  margin-top: 5%;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.generic-btn {
+  color: #fff;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+
+.project-btn:hover {
+  background-color: #a0b0bd;
+}
+
+.project-img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 200%;
+}
+
+.project-img {
+  max-width: 72%;
+  max-height: 86%;
 }

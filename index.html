@@ -24,11 +24,11 @@
       </div>
       <!-- Navigation links  -->
       <div id="nav-links">
-        <a id="nav-about" onclick="scrollToDiv('jump-about')"
+        <a id="nav-about" onclick="scrollToDiv('section-about')"
           >About Me
           <hr
         /></a>
-        <a id="nav-projects" onclick="scrollToDiv('jump-projects')"
+        <a id="nav-projects" onclick="scrollToDiv('section-projects')"
           >Projects
           <hr
         /></a>
@@ -56,7 +56,6 @@
 
     <!--About-->
     <div id="section-about">
-      <a id="jump-about"></a>
       <img id="personal-pic" src="./images/angela-linkedin-profile-pic.jpeg" />
       <div id="about">
         <h3>
@@ -64,17 +63,19 @@
         </h3>
 
         <p>
-          Hello! I'm Angela, a full-stack software engineer based in NYC with a
+          I am a full-stack software engineer based in New York City with a
           background in chemsitry.
         </p>
 
         <p>
-          I have a Master of Science in Chemistry with a concentration in
-          Biochemistry from University at Albany, State University of New York.
-          I also managed the General Chemistry and Quantitative Analysis
-          Laboratories as a College Laboratory Technician and was an Adjunct
-          Instructor for the Department of Sciences at John Jay College of
-          Criminal Justice.
+          I earned my Master of Science in Chemistry from
+          <a href="https://www.albany.edu/">SUNY Albany</a>. I managed the
+          General Chemistry and Quantitative Analysis laboratories as a College
+          Laboratory Technician and was an Adjunct Instructor for the Department
+          of Sciences at
+          <a href="http://www.jjay.cuny.edu/"
+            >John Jay College of Criminal Justice</a
+          >.
         </p>
 
         <p>
@@ -91,17 +92,107 @@
         </p>
 
         <p>
-          I enrolled in the Grace Hopper Program at Fullstack Academy, a
-          full-time immersive software engineering program. I learned to use
-          different technologies and built some pretty cool applications with
-          some pretty cool people from my cohort. I think that there are many
-          ways to integrate my skills in chemistry research into software
-          engineering. I am excited to apply what I learned to make a big impact
-          while contining to learn and work with new technologies.
+          I enrolled in the
+          <a href="https://www.gracehopper.com/">Grace Hopper Program</a> at
+          <a
+            href="https://www.fullstackacademy.com/software-engineering-immersive"
+            >Fullstack Academy</a
+          >, a full-time immersive software engineering program. I learned to
+          use different technologies and built some pretty cool applications
+          with some pretty cool people from my cohort. I think that there are
+          many ways to integrate my skills in chemistry research into software
+          engineering. I am excited to apply what I've learned to make a big
+          impact while contiuning to learn and work with new technologies.
         </p>
       </div>
     </div>
     <!--Projects-->
+    <div class="outer" id="section-projects">
+      <div class="inner">
+        <div id="projects">
+          <h3>Projects</h3>
+          <!--Project 1-->
+          <div class="single-project">
+            <div class="project-content">
+              <h4>Ricochet Robots</h4>
+              <p>
+                <a href="https://ricochet-robots-avuong12.herokuapp.com/"
+                  >Ricochet Robots</a
+                >
+                is a digital version of the board game of the same name. Players
+                compete to find the shortest path for a robot to reach its
+                target cell on a grid. Players can find the shortest path
+                manually with the arrow keys or have the computer find the path!
+                This project is a work in progress.
+              </p>
+              <h5>Tech Stack</h5>
+              <ul>
+                <li>Javascript</li>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Node.js</li>
+                <li>Socket.io</li>
+              </ul>
+              <a
+                class="generic-btn project-btn"
+                target="_blank"
+                href="https://github.com/avuong12/RicochetRobots"
+                >VIEW ON GITHUB</a
+              >
+            </div>
+
+            <div class="project-img-div">
+              <img
+                class="project-img"
+                src="./images/Ricochet-robots-screenshot.png"
+              />
+            </div>
+          </div>
+
+          <!--Project 2-->
+          <div class="single-project">
+            <div class="project-content">
+              <h4>Shelter-In-Pets</h4>
+              <p>
+                <a href="https://expo.io/@anuong12/ShelterInPets"
+                  >Shelter-In-Pets</a
+                >a is a mobile application that grew from the need to provide
+                homes for pets during the COVID-19 pandemic. A user can find
+                their ideal pet by uploading a picture of a dog they like to the
+                app's breed prediction model or search by selecting dog
+                attributes. The user can learn more about a dog by viewing it.
+                They can also contact the shelter via phone or email. The user
+                can like a dog and view their liked dogs in the Favorites page.
+                The app makes it even easier for the user to find their perfect
+                pet with the Recommendation feature.
+              </p>
+              <h5>Tech Stack</h5>
+              <ul>
+                <li>Javascript</li>
+                <li>React Native</li>
+                <li>Redux</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Sequlize</li>
+                <li>PostgreSQL</li>
+                <li>Clarifai API</li>
+                <li>Petfinder API</li>
+              </ul>
+              <a
+                class="generic-btn project-btn"
+                target="_blank"
+                href="https://github.com/sense-5"
+                >VIEW ON GITHUB</a
+              >
+            </div>
+
+            <div class="project-img-div">
+              <img class="project-img" src="./images/browseAndSelect (2).gif" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--Publications-->
 
