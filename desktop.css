@@ -130,6 +130,13 @@ h5 {
   display: contents;
 }
 
+h6 {
+  font-size: 18px;
+  font-variant: small-caps;
+  font-weight: bold;
+  display: contents;
+}
+
 img#personal-pic {
   border-radius: 50%;
   max-width: 750px;
@@ -156,6 +163,7 @@ div.outer {
   text-align: left;
   padding: 25px 80px;
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .single-project {
@@ -185,6 +193,20 @@ div.outer {
   background-color: #a0b0bd;
 }
 
+.generic-btn2 {
+  color: black;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.project-btn:hover {
+  background-color: #a0b0bd;
+}
+
 .project-img-div {
   display: flex;
   flex-direction: column;
@@ -196,4 +218,77 @@ div.outer {
 .project-img {
   max-width: 72%;
   max-height: 86%;
+}
+
+#section-publications div.inner {
+  color: black;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 25px 80px;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  height: 100%;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-style: normal;
+  color: -internal-quirk-inherit;
+  text-align: start;
+  border-spacing: 2px;
+  border-color: grey;
+  font-variant: normal;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: inline-flex;
+  vertical-align: top;
+  border-color: inherit;
+  padding: 15px;
+}
+
+td.bibtexnubmer {
+  align-items: right;
+  display: table-cell;
+}
+
+td.bibtexitem {
+  display: table-cell;
+}
+
+#section-contact div.inner {
+  color: #fff;
+  background-color: #8d9aa5;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 25px 80px;
+  margin-top: 5%;
+  margin-bottom: 20%;
+
+  display: block;
+}
+
+#footer-icons img {
+  width: 45px;
+}
+
+#footer-icons {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#contact-text {
+  text-align: center;
 }
