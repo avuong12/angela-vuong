@@ -220,6 +220,11 @@ div.outer {
   max-height: 86%;
 }
 
+#sorting_pic {
+  max-width: 90%;
+  max-height: 86%;
+}
+
 #section-publications div.inner {
   color: black;
   letter-spacing: 1px;
